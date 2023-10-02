@@ -127,6 +127,9 @@ a {
   height: 4px;
   border-radius: 2px;
   background-color: #404bbf;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
 }
 
 .header-link:hover,
