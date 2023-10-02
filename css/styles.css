@@ -472,6 +472,12 @@ a {
   height: 40px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
+  gap: 16px;
+}
+
+.socials-item-footer {
+  display: flex;
+  gap: 16px;
 }
 
 .socials-ellipse-footer:hover,
@@ -487,10 +493,12 @@ a {
   transform: translate(-50%, -50%);
   height: 24px;
   width: 24px;
+  gap: 16px;
 }
 
 .footer-info {
   margin-right: 120px;
+  gap: 16px;
 }
 
 .footer-logo {
@@ -519,4 +527,5 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
+  gap: 16px;
 }
