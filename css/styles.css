@@ -408,10 +408,9 @@ a {
 
 .footer-container {
   display: flex;
-  gap: 120px;
 }
 
-.footer-socials {
+.socials-list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -427,6 +426,11 @@ a {
   transform: translate(-50%, -50%);
   height: 24px;
   width: 24px;
+}
+
+.footer-info {
+  align-items: baseline;
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -445,7 +449,6 @@ a {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   width: 264px;
-  margin-top: 16px;
 }
 
 .footer-title-social {
@@ -454,4 +457,5 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
