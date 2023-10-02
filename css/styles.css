@@ -453,11 +453,6 @@ a {
   gap: 16px;
 }
 
-.footer-media {
-  display: flex;
-  gap: 16px;
-}
-
 .socials-list {
   display: flex;
   justify-content: center;
