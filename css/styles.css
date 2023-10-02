@@ -444,16 +444,17 @@ a {
   padding: 100px 0;
   display: flex;
   align-items: baseline;
+  gap: 16px;
 }
 
 .footer-container {
   display: flex;
   align-items: baseline;
+  gap: 16px;
 }
 
-.footer-media {
-  align-items: baseline;
-}
+/* .footer-media {
+} */
 
 .socials-list {
   display: flex;
@@ -485,6 +486,7 @@ a {
 .socials-ellipse-footer:hover,
 .socials-ellipse-footer:focus {
   background-color: #31d0aa;
+  gap: 16px;
 }
 
 .footer-socials-icon {
