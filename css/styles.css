@@ -55,8 +55,6 @@ a {
 .header-container {
   display: flex;
   align-items: center;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-logo {
@@ -89,6 +87,24 @@ a {
   color: #404bbf;
 }
 
+.header-item:hover::after {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.header-item::after {
+  content: "";
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #404bbf;
+}
+
 .header-link {
   color: var(--NAVY-BLUE, #2e2f42);
   /* Body Medium */
@@ -96,7 +112,6 @@ a {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   padding: 24px 0;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link:hover,
