@@ -493,6 +493,8 @@ a {
 }
 
 .footer-socials-icon {
+  display: flex;
+  gap: 16px;
   position: absolute;
   fill: #f4f4fd;
   top: 50%;
@@ -500,8 +502,6 @@ a {
   transform: translate(-50%, -50%);
   height: 24px;
   width: 24px;
-  display: flex;
-  gap: 16px;
 }
 
 .footer-info {
