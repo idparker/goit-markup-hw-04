@@ -509,6 +509,8 @@ a {
   line-height: 1.16; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: flex;
+  gap: 16px;
 }
 
 .footer-text {
@@ -518,6 +520,8 @@ a {
   letter-spacing: 0.02em;
   width: 264px;
   margin-top: 17.5px;
+  display: flex;
+  gap: 16px;
 }
 
 .footer-title-social {
@@ -527,5 +531,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
+  display: flex;
   gap: 16px;
 }
